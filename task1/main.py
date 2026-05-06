@@ -26,7 +26,7 @@ def generate_text(prompt: str) -> str:
         raise ValueError("OPENROUTER_API_KEY not set")
 
      if not model_name:
-        raise ValueError("OPENROUTER_API_KEY not set")
+        raise ValueError("MODEL_NAME not set")
 
      url = "https://openrouter.ai/api/v1/chat/completions"
 
